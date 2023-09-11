@@ -14,18 +14,24 @@ struct ContentView: View {
             
             Text("First Tab")
                 .tabItem {
-                    Image(systemName: "1.square.fill")
-                    Text("First")
+                    Image(systemName: "house")
                 }
             Text("Second Tab")
                 .tabItem {
-                    Image(systemName: "2.square.fill")
-                    Text("Second")
+                    Image(systemName: "magnifyingglass")
                 }
             Text("Last Tab")
                 .tabItem {
-                    Image(systemName: "3.square.fill")
-                    Text("Third")
+                    Image(systemName: "play.square.stack.fill")
+                }
+            Text("Last Tab")
+                .tabItem {
+                    Image(systemName: "bag")
+                }
+            Text("Last Tab")
+                .tabItem {
+                    Image(systemName: "person.circle")
+                
                 }
                 .badge(10)
             
