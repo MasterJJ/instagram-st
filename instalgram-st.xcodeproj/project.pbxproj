@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED59268A2AAF55DF00DA176C /* instalgram_stApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5926892AAF55DF00DA176C /* instalgram_stApp.swift */; };
+		ED59268C2AAF55DF00DA176C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59268B2AAF55DF00DA176C /* ContentView.swift */; };
+		ED59268E2AAF55E000DA176C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED59268D2AAF55E000DA176C /* Assets.xcassets */; };
+		ED5926912AAF55E000DA176C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5926902AAF55E000DA176C /* Preview Assets.xcassets */; };
+		ED59269B2AAF55E000DA176C /* instalgram_stTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED59269A2AAF55E000DA176C /* instalgram_stTests.swift */; };
+		ED5926A52AAF55E000DA176C /* instalgram_stUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5926A42AAF55E000DA176C /* instalgram_stUITests.swift */; };
+		ED5926A72AAF55E000DA176C /* instalgram_stUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5926A62AAF55E000DA176C /* instalgram_stUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED5926972AAF55E000DA176C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED59267E2AAF55DF00DA176C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5926852AAF55DF00DA176C;
+			remoteInfo = "instalgram-st";
+		};
+		ED5926A12AAF55E000DA176C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED59267E2AAF55DF00DA176C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED5926852AAF55DF00DA176C;
+			remoteInfo = "instalgram-st";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED5926862AAF55DF00DA176C /* instalgram-st.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "instalgram-st.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5926892AAF55DF00DA176C /* instalgram_stApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instalgram_stApp.swift; sourceTree = "<group>"; };
+		ED59268B2AAF55DF00DA176C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED59268D2AAF55E000DA176C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED5926902AAF55E000DA176C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED5926962AAF55E000DA176C /* instalgram-stTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instalgram-stTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED59269A2AAF55E000DA176C /* instalgram_stTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instalgram_stTests.swift; sourceTree = "<group>"; };
+		ED5926A02AAF55E000DA176C /* instalgram-stUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "instalgram-stUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5926A42AAF55E000DA176C /* instalgram_stUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instalgram_stUITests.swift; sourceTree = "<group>"; };
+		ED5926A62AAF55E000DA176C /* instalgram_stUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = instalgram_stUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED5926832AAF55DF00DA176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5926932AAF55E000DA176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED59269D2AAF55E000DA176C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED59267D2AAF55DF00DA176C = {
+			isa = PBXGroup;
+			children = (
+				ED5926882AAF55DF00DA176C /* instalgram-st */,
+				ED5926992AAF55E000DA176C /* instalgram-stTests */,
+				ED5926A32AAF55E000DA176C /* instalgram-stUITests */,
+				ED5926872AAF55DF00DA176C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED5926872AAF55DF00DA176C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED5926862AAF55DF00DA176C /* instalgram-st.app */,
+				ED5926962AAF55E000DA176C /* instalgram-stTests.xctest */,
+				ED5926A02AAF55E000DA176C /* instalgram-stUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5926882AAF55DF00DA176C /* instalgram-st */ = {
+			isa = PBXGroup;
+			children = (
+				ED5926892AAF55DF00DA176C /* instalgram_stApp.swift */,
+				ED59268B2AAF55DF00DA176C /* ContentView.swift */,
+				ED59268D2AAF55E000DA176C /* Assets.xcassets */,
+				ED59268F2AAF55E000DA176C /* Preview Content */,
+			);
+			path = "instalgram-st";
+			sourceTree = "<group>";
+		};
+		ED59268F2AAF55E000DA176C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED5926902AAF55E000DA176C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ED5926992AAF55E000DA176C /* instalgram-stTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED59269A2AAF55E000DA176C /* instalgram_stTests.swift */,
+			);
+			path = "instalgram-stTests";
+			sourceTree = "<group>";
+		};
+		ED5926A32AAF55E000DA176C /* instalgram-stUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED5926A42AAF55E000DA176C /* instalgram_stUITests.swift */,
+				ED5926A62AAF55E000DA176C /* instalgram_stUITestsLaunchTests.swift */,
+			);
+			path = "instalgram-stUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED5926852AAF55DF00DA176C /* instalgram-st */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5926AA2AAF55E000DA176C /* Build configuration list for PBXNativeTarget "instalgram-st" */;
+			buildPhases = (
+				ED5926822AAF55DF00DA176C /* Sources */,
+				ED5926832AAF55DF00DA176C /* Frameworks */,
+				ED5926842AAF55DF00DA176C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "instalgram-st";
+			productName = "instalgram-st";
+			productReference = ED5926862AAF55DF00DA176C /* instalgram-st.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED5926952AAF55E000DA176C /* instalgram-stTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5926AD2AAF55E000DA176C /* Build configuration list for PBXNativeTarget "instalgram-stTests" */;
+			buildPhases = (
+				ED5926922AAF55E000DA176C /* Sources */,
+				ED5926932AAF55E000DA176C /* Frameworks */,
+				ED5926942AAF55E000DA176C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5926982AAF55E000DA176C /* PBXTargetDependency */,
+			);
+			name = "instalgram-stTests";
+			productName = "instalgram-stTests";
+			productReference = ED5926962AAF55E000DA176C /* instalgram-stTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED59269F2AAF55E000DA176C /* instalgram-stUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED5926B02AAF55E000DA176C /* Build configuration list for PBXNativeTarget "instalgram-stUITests" */;
+			buildPhases = (
+				ED59269C2AAF55E000DA176C /* Sources */,
+				ED59269D2AAF55E000DA176C /* Frameworks */,
+				ED59269E2AAF55E000DA176C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED5926A22AAF55E000DA176C /* PBXTargetDependency */,
+			);
+			name = "instalgram-stUITests";
+			productName = "instalgram-stUITests";
+			productReference = ED5926A02AAF55E000DA176C /* instalgram-stUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED59267E2AAF55DF00DA176C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					ED5926852AAF55DF00DA176C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					ED5926952AAF55E000DA176C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ED5926852AAF55DF00DA176C;
+					};
+					ED59269F2AAF55E000DA176C = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = ED5926852AAF55DF00DA176C;
+					};
+				};
+			};
+			buildConfigurationList = ED5926812AAF55DF00DA176C /* Build configuration list for PBXProject "instalgram-st" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED59267D2AAF55DF00DA176C;
+			productRefGroup = ED5926872AAF55DF00DA176C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED5926852AAF55DF00DA176C /* instalgram-st */,
+				ED5926952AAF55E000DA176C /* instalgram-stTests */,
+				ED59269F2AAF55E000DA176C /* instalgram-stUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED5926842AAF55DF00DA176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5926912AAF55E000DA176C /* Preview Assets.xcassets in Resources */,
+				ED59268E2AAF55E000DA176C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5926942AAF55E000DA176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED59269E2AAF55E000DA176C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED5926822AAF55DF00DA176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED59268C2AAF55DF00DA176C /* ContentView.swift in Sources */,
+				ED59268A2AAF55DF00DA176C /* instalgram_stApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5926922AAF55E000DA176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED59269B2AAF55E000DA176C /* instalgram_stTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED59269C2AAF55E000DA176C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED5926A52AAF55E000DA176C /* instalgram_stUITests.swift in Sources */,
+				ED5926A72AAF55E000DA176C /* instalgram_stUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED5926982AAF55E000DA176C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5926852AAF55DF00DA176C /* instalgram-st */;
+			targetProxy = ED5926972AAF55E000DA176C /* PBXContainerItemProxy */;
+		};
+		ED5926A22AAF55E000DA176C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED5926852AAF55DF00DA176C /* instalgram-st */;
+			targetProxy = ED5926A12AAF55E000DA176C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED5926A82AAF55E000DA176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED5926A92AAF55E000DA176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED5926AB2AAF55E000DA176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"instalgram-st/Preview Content\"";
+				DEVELOPMENT_TEAM = K3RYM6F8A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masterj.instalgram-st";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED5926AC2AAF55E000DA176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"instalgram-st/Preview Content\"";
+				DEVELOPMENT_TEAM = K3RYM6F8A6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masterj.instalgram-st";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ED5926AE2AAF55E000DA176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3RYM6F8A6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masterj.instalgram-stTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instalgram-st.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instalgram-st";
+			};
+			name = Debug;
+		};
+		ED5926AF2AAF55E000DA176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3RYM6F8A6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masterj.instalgram-stTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/instalgram-st.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/instalgram-st";
+			};
+			name = Release;
+		};
+		ED5926B12AAF55E000DA176C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3RYM6F8A6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masterj.instalgram-stUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "instalgram-st";
+			};
+			name = Debug;
+		};
+		ED5926B22AAF55E000DA176C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K3RYM6F8A6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.masterj.instalgram-stUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "instalgram-st";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED5926812AAF55DF00DA176C /* Build configuration list for PBXProject "instalgram-st" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5926A82AAF55E000DA176C /* Debug */,
+				ED5926A92AAF55E000DA176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5926AA2AAF55E000DA176C /* Build configuration list for PBXNativeTarget "instalgram-st" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5926AB2AAF55E000DA176C /* Debug */,
+				ED5926AC2AAF55E000DA176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5926AD2AAF55E000DA176C /* Build configuration list for PBXNativeTarget "instalgram-stTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5926AE2AAF55E000DA176C /* Debug */,
+				ED5926AF2AAF55E000DA176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED5926B02AAF55E000DA176C /* Build configuration list for PBXNativeTarget "instalgram-stUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED5926B12AAF55E000DA176C /* Debug */,
+				ED5926B22AAF55E000DA176C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED59267E2AAF55DF00DA176C /* Project object */;
+}
