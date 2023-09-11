@@ -10,35 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 
-        TabView {
-            
-            Text("First Tab")
-                .tabItem {
-                    Image(systemName: "house")
-                }
-            Text("Second Tab")
-                .tabItem {
-                    Image(systemName: "magnifyingglass")
-                }
-            Text("Last Tab")
-                .tabItem {
-                    Image(systemName: "play.square.stack.fill")
-                }
-            Text("Last Tab")
-                .tabItem {
-                    Image(systemName: "bag")
-                }
-            Text("Last Tab")
-                .tabItem {
-                    Image(systemName: "person.circle")
-                
-                }
-                .badge(10)
+         MainTabView()
             
         }
-        .font(.headline)
-        
-    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
