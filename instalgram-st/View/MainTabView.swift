@@ -14,7 +14,7 @@ struct MainTabView: View{
         case home, find, play, shop, person
     }
     
-    @State private var _selected_tab: Tabs = .home
+    @State private var _selected_tab: Tabs = .person
     
     
     var body: some View {
