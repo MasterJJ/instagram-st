@@ -15,6 +15,7 @@ struct PsesonContentTabn: View {
     
     var body: some View {
         VStack{
+            Spacer()
             CustomTopTabBar(tabIndex: $tabIndex)
             if tabIndex == 0 {
                 FirstView()
@@ -53,6 +54,8 @@ struct CustomTopTabBar: View {
     @Binding var tabIndex: Int
     var body: some View {
         HStack(spacing: 20) {
+            Spacer()
+            
             TabBarButton(text: "house", isSelected: .constant(tabIndex == 0))
                 .onTapGesture { onButtonTapped(index: 0) }
             TabBarButton(text: "play.rectangle", isSelected: .constant(tabIndex == 1))
@@ -77,9 +80,10 @@ struct TabBarButton: View {
        Image(systemName: text)
         //Text(text)
             .fontWeight(isSelected ? .heavy : .regular)
-            .font(.custom("Avenir", size: 16))
+            .font(.custom("Avenir", size: 25))
             .padding(.bottom,10)
             .border(width: isSelected ? 2 : 1, edges: [.bottom], color: .black)
+            .frame(width: 100, height: 40)
     }
 }
 
