@@ -115,6 +115,7 @@ struct PersonView: View {
                         )
                 }
             }
+            PsesonContentTabn()
             Spacer()
             
         }
