@@ -1,6 +1,6 @@
-# instalgram-st
+# instagram-st
 
-For instalgram st  version 
+For instagram st  version 
 
 only use swift ui 
 
